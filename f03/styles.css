@@ -1,0 +1,44 @@
+
+/** nav **/
+
+.nav {
+  background-color: pink;
+}
+
+.nav ul {
+  display: inline;
+  background-color: aqua;
+}
+
+.nav li {
+  display: inline;
+}
+
+/** eitthvað bla **/
+
+.main-heading {
+  font-size: 1em;
+}
+
+p {
+  background-color: pink;
+}
+
+.quote:hover p  {
+  background-color: yellow;
+}
+
+p:nth-child(2n+1) {
+  /* background-color: blue; */
+}
+
+p:hover {
+  background-color: green;
+}
+
+blockquote p {
+  background-color: transparent;
+}
+
+
+
