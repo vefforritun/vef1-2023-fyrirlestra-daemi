@@ -1,0 +1,28 @@
+
+.container {
+  display: grid;
+  width: 100%;
+  min-height: 100vh;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "foot";
+  grid-template-rows:
+    minmax(10vh, auto) minmax(20vh, auto) minmax(60vh, auto) minmax(10vh, auto);
+}
+
+@media (min-width: 1000px) {
+  .container {
+    grid-template-areas:
+      "nav header"
+      "nav    main"
+      "foot    foot";
+    grid-template-rows:
+      minmax(20vh, auto) minmax(60vh, auto) minmax(20vh, auto);
+    grid-template-columns: 2fr 8fr;
+  }
+}
+
+
+  
