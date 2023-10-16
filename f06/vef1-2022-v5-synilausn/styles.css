@@ -13,7 +13,9 @@ html {
 }
 
 /* og látum erfast á allt */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -71,7 +73,9 @@ body {
   font-family: var(--font-family-base);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-family-heading);
 }
 
@@ -178,7 +182,8 @@ main {
 
 /* Header */
 
-header {  
+header {
+  position: relative;
   display: flex;
   flex-direction: column;
 
@@ -307,7 +312,7 @@ header .protection {
   height: 300px;
 }
 
-.card > .content {  
+.card > .content {
   flex: 1;
 
   display: flex;
